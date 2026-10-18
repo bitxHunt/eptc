@@ -1,0 +1,38 @@
+# Unarchived Workbench projects. Only the .wbpz archive in model/ is shared.
+*.wbpj
+*_files/
+*.wbpj.lock
+*.lock
+
+# Solver scratch and results (they are rebuilt by solving, or live inside the archive)
+*.rst
+*.rth
+*.db
+*.dbb
+*.esav
+*.full
+*.emat
+*.err
+*.out
+*.page
+*.mntr
+*.dsp
+file*.ldhi
+
+# Local working copies of the model
+work/
+
+# SolidWorks and Office temporary files
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
